@@ -1,7 +1,7 @@
 # Budget Tracker
 ![Github license](http://img.shields.io/badge/license-MIT-blue.svg)
 
-Built a CMS (Content Management System) style [Issue Tracker](https://trackend-project.herokuapp.com/) that tracks bugs and issues through a ticketing system. Users can submit and comment on tickets while Administrators can manage user database. Uses MVC (Model-View-Controller) paradigm, using `Handlebars.js` as template, `Sequelize` as ORM, and `Express-Session` npm (node package manager) for authentication.
+Budget Tracker application gives users a fast and easy way to track money transactions. This app allows for offline access and functionality. Features `Mongoose`, `IndexedDB`, `Service Workers`, and `Web Manifest`.
 
 ![Screenshot](./assets/screenshots/budget_tracker.png)
 
@@ -38,7 +38,7 @@ This repository uses the following server:
 
 Go to [Budget Tracker Heroku Deployed Site](https://budget-tracker-software.herokuapp.com/) to add or subtract transactions. User has the ability to enter deposits and expenses offline and will be added to the tracker when the application is brought back online.
 
-Budget Tracker includes `Service Workers` to allow background scripts to run in the browser, separate from JavaScript.
+Budget Tracker includes `Service Workers` to allow background scripts to run in the browser, separate from JavaScript. Also works with `IndexedDB` to persistently store data inside a user's browser.
 
 Budget Tracker incorporates web manifest with the app's metadata, to let users' devices install an app to their chrome data found on [Chrome Apps](chrome://apps/). This currently works with Google Chrome browser.
 
@@ -54,7 +54,7 @@ Server is deployed on Heroku through MongoDB Atlas. See deployed link to budget 
 
 :octocat:
 
-[paperpatch](https://github.com/paperpatch) </br>
+[paperpatch](https://github.com/paperpatch)
 
 ## License
 
